@@ -7,7 +7,7 @@ In photography, a scrim is something that softens light — from the sun, or a f
 
 In UX, a scrim is a design technique (a gradient or overlay) used to make text more legible when overlaid on an image. The kind of visual treatment that is becoming increasingly common in card-based design.
 
-A typical scrim is a neutral gradient that starts about half-way down an image and increases to 30%-40% opacity, creating a subtle darkening effect tha provides enought contrast for white text to be legible. 
+A typical scrim is a neutral gradient that starts about half-way down an image and increases to 30%-40% opacity, creating a subtle darkening effect that provides enought contrast for white text to be legible. 
 
 ## Install
 
