@@ -93,3 +93,33 @@ This defines the distance the scrim covers. i.e. how much of the image is covere
 ```
 
 `colors` define the `{start}` and `{end}` colors (including alpha) for a scrim.
+
+## Example
+
+This configuration:
+
+```js
+// tailwind.js
+module.exports = {
+  // ...
+  plugins: [
+    require('tailwindcss-scrims')({
+      directions: {
+        't': 'to bottom',
+      },
+      distances: {
+        default': '25%',
+      },
+      colors: {
+        default: [rgba(0,0,0,0.4), rgba(0,0,0,0)],
+      },
+      variants: [],
+    })
+  ]
+  // ...
+}
+```
+Results in the following utilities:
+```css
+
+```
