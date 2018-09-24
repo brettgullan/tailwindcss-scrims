@@ -3,7 +3,7 @@
 
 ## What are Scrims?
 
-In photography, a scrim is something that softens light — usually from the sun, or a flash — and is typically a piece of fabric, paper or acrylic stretched across a frame.
+In photography, a scrim is something that softens light — from the sun, or a flash — and is typically a piece of fabric, paper or acrylic stretched across a frame.
 
 In UX, a scrim is a design technique (a gradient or overlay) used to make text more legible when overlaid on an image. The kind of visual treatment that is becoming increasingly common in card-based design.
 
