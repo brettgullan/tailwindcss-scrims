@@ -135,7 +135,7 @@ Results in the following utilities:
   backgroundImage: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0) 25%);
 }
 
-.scrim-t-1/2::after: {
+.scrim-t-1\/2::after: {
   content: " ",
   position: absolute,
   top: 0,
@@ -155,7 +155,7 @@ Results in the following utilities:
   backgroundImage: linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0) 25%);
 }
 
-.scrim-b-1/2::after: {
+.scrim-b-1\/2::after: {
   content: " ",
   position: absolute,
   top: 0,
