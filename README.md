@@ -106,9 +106,11 @@ module.exports = {
     require('tailwindcss-scrims')({
       directions: {
         't': 'to bottom',
+        'b': 'to top',
       },
       distances: {
         default: '25%',
+        '1/2': '50%',
       },
       colors: {
         default: [rgba(0,0,0,0.4), rgba(0,0,0,0)],
@@ -119,7 +121,47 @@ module.exports = {
   // ...
 }
 ```
-Results in the following utilities:
-```css
 
+Results in the following utilities:
+
+```css
+.scrim-t::after: {
+  content: " ",
+  position: absolute,
+  top: 0,
+  left: 0,
+  width: 100%,
+  height: 100%,
+  backgroundImage: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0) 25%);
+}
+
+.scrim-t-1/2::after: {
+  content: " ",
+  position: absolute,
+  top: 0,
+  left: 0,
+  width: 100%,
+  height: 100%,
+  backgroundImage: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0) 50%);
+}
+
+.scrim-b::after: {
+  content: " ",
+  position: absolute,
+  top: 0,
+  left: 0,
+  width: 100%,
+  height: 100%,
+  backgroundImage: linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0) 25%);
+}
+
+.scrim-b-1/2::after: {
+  content: " ",
+  position: absolute,
+  top: 0,
+  left: 0,
+  width: 100%,
+  height: 100%,
+  backgroundImage: linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0) 50%);
+}
 ```
