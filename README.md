@@ -1,4 +1,4 @@
-# tailwindcss-scrims
+# Tailwind CSS Scrims
 > Configurable Tailwind plugin for generating scrim utility classes.
 
 ## What are Scrims?
