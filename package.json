@@ -1,0 +1,35 @@
+{
+  "name": "tailwindcss-scrims",
+  "version": "1.0.0",
+  "description": "Tailwind CSS plugin to generate scrim classes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brettgullan/tailwindcss-scrims.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "tailwind-css",
+    "tailwindcss-plugin"
+  ],
+  "author": "Brett Gullan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brettgullan/tailwindcss-scrims/issues"
+  },
+  "homepage": "https://github.com/brettgullan/tailwindcss-scrims#readme",
+  "dependencies": {
+    "lodash.map": "^4.6.0",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^6.3.4",
+    "sinon-chai": "^3.2.0"
+  }
+}
