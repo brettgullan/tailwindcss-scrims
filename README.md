@@ -1,5 +1,5 @@
 # tailwindcss-scrims
-> Configurable Tailwind plugin for generating scrim classes.
+> Configurable Tailwind plugin for generating scrim utility classes.
 
 ## What are Scrims?
 
@@ -11,12 +11,14 @@ A typical scrim is a neutral gradient that starts about half-way down an image a
 
 ## Install
 
+`tailwindcss-scrims` automatically generates generates scrim class variations for specified directions, distances and gradient densities.
+
+
 ```
 npm install --save-dev tailwindcss-scrims
 ```
 
-`tailwindcss-scrims` automatically generates generates scrim class variations for specified directions, distances and gradient densities.
-
+## Usage
 
 ```js
 // tailwind.js
@@ -47,3 +49,47 @@ module.exports = {
 }
 ```
 
+## Options
+
+### `directions` (optional)
+
+**Default:**
+```js
+{
+  't': 'to bottom',
+  'b': 'to top',
+  'r': 'to left',
+  'l': 'to right',
+}
+```
+
+This is where you can define the direction — or location of emphasis — for a scrim. i.e. where the scrim color is darkest.
+Each `direction` is specified as a key/value pair. The key is used in the utility class name, the value is a valid CSS Gradient direction.
+
+
+### `distances` (optional)
+
+**Default:**
+```js
+{
+  '1/4': '25%',
+  '1/3': '33.33333%',
+  '1/2': '50%',
+  '2/3': '66.66666%'
+  '3/4': '75%',
+}
+```
+
+This defines the distance the scrim covers. i.e. how much of the image is covered by the scrim gradient. Each `distance` is specified as a key/value pair. The key is used in the utility class name, the value is a valid CSS Gradient 'stop' location.
+
+
+### `colors` (optional)
+
+**Default:**
+```js
+{
+  default: [rgba(0,0,0,0.4), rgba(0,0,0,0)],
+}
+```
+
+`colors` define the `{start}` and `{end}` colors (including alpha) for a scrim.
