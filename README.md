@@ -94,6 +94,21 @@ This defines the distance the scrim covers. i.e. how much of the image is covere
 
 `colors` define the `{start}` and `{end}` colors (including alpha) for a scrim.
 
+### `variants` (optional)
+
+**Default:**
+```js
+['responsive', 'hover']
+```
+
+As per the [tailwind plugin docs](https://tailwindcss.com/docs/plugins/) you can also pass variants (responsive, hover, etc.) as an option.
+
+```js
+require('tailwindcss-scrims')({
+  variants: ['responsive', 'hover'],
+})
+```
+
 ## Example
 
 This configuration:
