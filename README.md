@@ -108,7 +108,7 @@ module.exports = {
         't': 'to bottom',
       },
       distances: {
-        default': '25%',
+        default: '25%',
       },
       colors: {
         default: [rgba(0,0,0,0.4), rgba(0,0,0,0)],
