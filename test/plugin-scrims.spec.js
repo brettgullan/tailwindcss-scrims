@@ -65,8 +65,8 @@ describe('Tailwind Scrims Plugin:', () => {
     const e = identity
     const plugin = Plugin({
       directions: {
-        'tr': 'to top-right',
-        'bl': 'to bottom-left',
+        'tr': 'to top right',
+        'bl': 'to bottom left',
       },
       distances: {
         '10': '10%',
