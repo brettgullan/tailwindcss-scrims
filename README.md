@@ -75,7 +75,7 @@ Each `direction` is specified as a key/value pair. The key is used in the utilit
   '1/4': '25%',
   '1/3': '33.33333%',
   '1/2': '50%',
-  '2/3': '66.66666%'
+  '2/3': '66.66666%',
   '3/4': '75%',
 }
 ```
